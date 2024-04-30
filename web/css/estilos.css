@@ -1,0 +1,39 @@
+*, *::before,*::after{
+  box-sizing: border-box;
+}
+html{
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+}
+body{
+  width: 85%;
+  margin: 0 auto;
+}
+p.titulo{
+  font-size: 2rem;
+  font-family: cursive;
+  color: navy;
+  text-align: center;
+  font-weight: 600;
+}
+p.subtitulo{
+  font-size: 1.8rem;
+  color:tomato;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+}
+label{
+  display: block;
+}
+.error{
+  color: red;
+}
+#bprestamo{
+  font-family: inherit;
+  font-size: inherit;
+  display: block;
+  margin: 15px auto;
+  width: 80%;
+  padding: 15px 0;
+}
